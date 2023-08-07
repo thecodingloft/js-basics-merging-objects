@@ -1,0 +1,50 @@
+/* IMPORT STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
+
+/* CSS RESET */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* STYLES */
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(5,84,255);
+    background: linear-gradient(90deg, rgba(5,84,255,1) 0%, rgba(218,0,178,1) 100%);
+    color: #fff;
+}
+
+.subheading {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+}
+
+.heading {
+    font-size: 72px;
+}
